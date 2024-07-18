@@ -1,0 +1,39 @@
+.container__app-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.container__app-icon__hover-show-name {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: -25px;
+  background-color: #2d3138;
+  color: whitesmoke;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container__app-icon__hover-show-name::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #2d3138 transparent transparent transparent;
+}
+
+.container__app-icon:hover .container__app-icon__hover-show-name {
+  display: block;
+}
+
+.container__app-icon__img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}

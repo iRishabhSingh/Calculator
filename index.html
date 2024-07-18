@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags  -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Web based Calculator App with MAC OSX Theme."
+    />
+
+    <!-- Linking CSS into the HTML Body -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- This is the Title of the Page -->
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- App icon to open the App -->
+      <button id="appIcon" class="container__app-icon btn" onclick="openApp()">
+        <div class="container__app-icon__hover-show-name">Calculator</div>
+        <img
+          alt="Calculator"
+          src="./calculator.webp"
+          class="container__app-icon__img"
+        />
+      </button>
+    </div>
+  </body>
+
+  <!-- linking JS to the Body -->
+  <script src="movable.js" defer></script>
+</html>
