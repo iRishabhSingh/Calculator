@@ -25,4 +25,18 @@ body {
   background-color: transparent;
 }
 
+.app {
+  width: 232px;
+  height: 320.5px;
+  min-width: 232px;
+  min-height: 320.5px;
+  position: absolute;
+  border-bottom: none;
+  border-radius: 11px;
+  box-sizing: content-box;
+  border: 1px solid rgba(86, 86, 86);
+  background-color: rgba(86, 86, 86);
+}
+
 @import "./appIcon";
+@import "./titlebar";
