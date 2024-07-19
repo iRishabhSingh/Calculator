@@ -13,7 +13,6 @@ function closeApp() {
 
 function maximizeApp() {
   const appWidth = app.offsetWidth;
-  console.log(appWidth);
 
   if (appWidth == "234") {
     app.style.width = "572px";
